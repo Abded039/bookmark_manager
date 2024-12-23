@@ -1,0 +1,3 @@
+Manage Deleting Action
+-- data = data.filter depending on the index of the clicked element
+Manage Filtering Action 

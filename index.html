@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bookmarks Manager</title>
+  </head>
+  <body>
+    <code>Powered By <i class="fas fa-heart" style="color: red"></i> </code>
+    <div class="container">
+      <h1 class="title">Bookmarks Manager Application</h1>
+      <div class="content">
+        <div class="newBookmark">
+          <h3 class="title">Add New Bookmark</h3>
+          <input type="text" placeholder="Website Text" />
+          <input type="text" placeholder="Website URL" />
+          <div class="chooseBookmarks">
+            <p>Choose From Category List Or Add A New One</p>
+            <div class="list"></div>
+          </div>
+          <input type="text" placeholder="New Category Name" />
+          <button onclick="addBookmark()">Add Bookmark</button>
+        </div>
+        <div class="showBookmarks">
+          <h3 class="title">Show All Bookmarks</h3>
+          <div class="filterBookmarks">
+            <p>Filter Bookmarks By Added Categories</p>
+            <div class="list"></div>
+          </div>
+        </div>
+        <div class="bookmarks">
+          <div class="list"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
